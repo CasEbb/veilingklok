@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Veilingmeester</title>
+        <script src="jquery.js"></script>
+        <script src="veilingmeester.js"></script>
+        <style>
+            * {
+            font-size: 24pt;
+        }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Klokje erbij?</legend>
+            <p><button id="open">Klok openen</button></p>
+        </fieldset>
+        <form id="reset">
+            <fieldset>
+                <legend>Nieuw product</legend>
+                <p><input id="name" placeholder="Naam"></p>
+                <p><input id="price" placeholder="Prijs"></p>
+                <p><button type="submit">Verstuur</button></p>
+            </fieldset>
+        </form>
+        <fieldset>
+            <legend>Controle</legend>
+            <p><button id="start">Start</button></p>
+            <p><button id="stop">Stop</button></p>
+        </fieldset>
+    </body>
+</html>
